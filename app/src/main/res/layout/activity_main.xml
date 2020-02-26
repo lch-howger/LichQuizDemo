@@ -7,11 +7,21 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btn_edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:onClick="edit"
         android:text="edit quiz" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_edit"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:onClick="stat"
+        android:text="statistics" />
 
     <Button
         android:layout_width="wrap_content"

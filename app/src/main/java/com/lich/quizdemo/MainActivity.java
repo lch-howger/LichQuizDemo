@@ -22,6 +22,10 @@ public class MainActivity extends BaseActivity {
     }
 
     public void start(View view) {
+        startActivity(QuizActivity.class);
+    }
 
+    public void stat(View view) {
+        startActivity(StatActivity.class);
     }
 }

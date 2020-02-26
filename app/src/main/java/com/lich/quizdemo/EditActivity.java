@@ -2,6 +2,8 @@ package com.lich.quizdemo;
 
 import android.view.View;
 
+import com.lich.quizdemo.constant.IntentKey;
+
 /**
  * Created by lichhowger on 2020/2/26.
  */
@@ -21,10 +23,10 @@ public class EditActivity extends BaseActivity {
     }
 
     public void quiz1(View view) {
-
+        startActivityString(PrepareActivity.class, IntentKey.PREPARE_ID, "1");
     }
 
     public void quiz2(View view) {
-
+        startActivityString(PrepareActivity.class, IntentKey.PREPARE_ID, "2");
     }
 }

@@ -6,4 +6,9 @@ package com.lich.quizdemo.constant;
 public class SpKey {
 
     public static final String QUESTION_POOL = "question_pool";
+    public static final String QUIZ = "quiz";
+    public static final String NOW_NAME = "now_name";
+    public static final String STAT = "stat";
+
+
 }

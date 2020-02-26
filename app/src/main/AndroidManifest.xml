@@ -22,6 +22,10 @@
         <activity android:name=".PrepareActivity" />
         <activity android:name=".PoolActivity" />
         <activity android:name=".AddActivity" />
+        <activity android:name=".SelectActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".StatActivity" />
     </application>
 
 </manifest>
